@@ -1,0 +1,28 @@
+/* ══════════════════════════════════════
+   Global reset & design tokens
+   ══════════════════════════════════════ */
+:root {
+  --blue-dark:   #083d77;
+  --blue-mid:    #0a4d98;
+  --blue-light:  #49a5ff;
+  --blue-pale:   #ddeeff;
+  --white:       #ffffff;
+  --black:       #000000;
+  --ink:         #0a1628;
+  --text-muted:  rgba(255,255,255,0.72);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Outfit', 'Segoe UI', sans-serif;
+  background: #f0f5fb;
+  color: var(--ink);
+  min-height: 100vh;
+}
