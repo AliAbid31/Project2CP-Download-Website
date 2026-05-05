@@ -29,9 +29,9 @@ export default function TopSection() {
         </div>
 
         <a
-          id="download-apk"
+          id="download-aab"
           className={styles.downloadBtn}
-          href="/tutorly.apk"
+          href="/tutorly.aab"
           download
         >
           <DownloadIcon />
