@@ -31,7 +31,7 @@ export default function TopSection() {
         <a
           id="download-apk"
           className={styles.downloadBtn}
-          href="/Tutorly-Android.apk"
+          href="/tutorly.apk"
           download
         >
           <DownloadIcon />
