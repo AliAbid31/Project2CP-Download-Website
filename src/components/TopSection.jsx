@@ -31,11 +31,11 @@ export default function TopSection() {
         <a
           id="download-aab"
           className={styles.downloadBtn}
-          href="/tutorly.aab"
+          href="/tutorly.apk"
           download
         >
           <DownloadIcon />
-          Download App (Android or IOS)
+          Download App (Android)
         </a>
       </div>
     </section>
